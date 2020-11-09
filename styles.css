@@ -3,3 +3,15 @@
     height: 158px;
     background-color: lightgoldenrodyellow;
 }
+.container-section-promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+.item-article{
+    width: 30%;
+    height: 250px;
+    background-color: palegreen;
+}
