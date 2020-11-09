@@ -11,9 +11,12 @@ video{
     height: 150px;
 }
 .container-header{
+    display: flex;
     width: 100%;
     height: 250px;
-    background-color: lightgoldenrodyellow;
+    margin-bottom: 50px;
+    background-color:  rgb(205, 245, 153);
+    justify-content: center;
 }
 .container-section-promo{
     display: flex;
@@ -26,4 +29,28 @@ video{
     width: 30%;
     height: 250px;
     background-color: palegreen;
+}
+.container-publicidad{
+    display: flex;
+    background-color: rgb(240, 131, 167);
+    margin: 20px;
+    padding: 50px;
+    align-items: center;
+}
+button{
+    color: whitesmoke;
+    background-color: rgb(190, 10, 70);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 10, 70);
+}
+.column {
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
 }
