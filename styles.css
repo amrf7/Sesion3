@@ -18,17 +18,17 @@ video{
     background-color:  rgb(205, 245, 153);
     justify-content: center;
 }
-.container-section-promo{
+.container-multimedia{
     display: flex;
-    width: 70%;
-    margin: 100px auto;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    margin: 50px;
 }
-.item-article{
+.container-video{
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: 250px;
-    background-color: palegreen;
+    align-items: center;
 }
 .container-publicidad{
     display: flex;
@@ -54,3 +54,16 @@ h2{
     font-size: 20px;
     color: whitesmoke;
 }
+.container-section-promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+.item-article{
+    width: 30%;
+    height: 250px;
+    background-color: palegreen;
+}
+
